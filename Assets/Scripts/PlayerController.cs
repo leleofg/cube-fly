@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private int speed;
     [SerializeField] private GameObject GameOver;
     [SerializeField] private GameObject RestartBtn;
+    [SerializeField] private GameObject QuitBtn;
 
     private Rigidbody2D rb;
 
@@ -27,6 +28,7 @@ public class PlayerController : MonoBehaviour
     {
         GameOver.SetActive(true);
         RestartBtn.SetActive(true);
+        QuitBtn.SetActive(true);
         Time.timeScale = 0;
     }
 }

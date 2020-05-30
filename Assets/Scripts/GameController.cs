@@ -14,15 +14,19 @@ public class GameController : Singleton<GameController>
         Time.timeScale = 1;
     }
 
+    public void AddPoints()
+    {
+        points++;
+        pointsTxt.text = points.ToString();
+    }
+
     public void RestartGame()
     {
         SceneManager.LoadScene(0);
     }
 
-    
-    public void AddPoints()
+    public void QuitGame()
     {
-        points++;
-        pointsTxt.text = points.ToString();
+        Application.Quit();
     }
 }
