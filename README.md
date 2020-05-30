@@ -12,6 +12,7 @@ A game developed in Unity, based on Flappy Bird
 * Instantiate - Clones the object original and returns the clone.
 * Destroy gameObject after a few seconds
 * transform.position = takes the position of the object where the script is
+* Quit game with Application.Quit();
 
 #### Download the project and run CubeFly.exe
 
