@@ -13,4 +13,4 @@ A game developed in Unity, based on Flappy Bird
 * Destroy gameObject after a few seconds
 * transform.position = takes the position of the object where the script is
 
-![cube_fly](https://user-images.githubusercontent.com/8952441/83225291-d705e000-a155-11ea-8f27-677c42d8abfc.png)
+![Cube Fly](https://user-images.githubusercontent.com/8952441/83336469-fdc53300-a289-11ea-9f6f-4c564b94e22f.png)
