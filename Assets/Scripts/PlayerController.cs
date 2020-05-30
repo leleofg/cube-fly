@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public int speed;
-    public GameObject GameOver;
-    public GameObject RestartBtn;
+    [SerializeField] private int speed;
+    [SerializeField] private GameObject GameOver;
+    [SerializeField] private GameObject RestartBtn;
 
     private Rigidbody2D rb;
 

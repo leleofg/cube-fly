@@ -6,13 +6,12 @@ using UnityEngine.UI;
 
 public class GameController : Singleton<GameController>
 {
-    public Text pointsTxt;
-    
+    [SerializeField] private Text pointsTxt;
     private int points = 0;
 
     void Start()
     {
-        Time.timeScale = 1;       
+        Time.timeScale = 1;
     }
 
     public void RestartGame()

@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class SpawnBars : MonoBehaviour
 {
-    public GameObject bars;
-    public float height;
-    public float maxTime;
+    [SerializeField] private GameObject bars;
+    [SerializeField] private float height;
+    [SerializeField] private float maxTime;
     
     private float timer = 0f;
 

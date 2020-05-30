@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bar : MonoBehaviour
 {
-    public float speed;
+    private float speed = 2;
 
     void Update()
     {
