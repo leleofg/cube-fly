@@ -11,5 +11,6 @@ A game developed in Unity, based on Flappy Bird
 * Handle with collision and trigger. OnCollisionEnter2D, OnTriggerEnter2D. The difference between collision and trigger is that collision stop the moviment when collider and when use trigger, do you need put one object how trigger(true), to detect the collision  but dont stop the moviment.
 * Instantiate - Clones the object original and returns the clone.
 * Destroy gameObject after a few seconds
+* transform.position = takes the position of the object where the script is
 
 ![cube_fly](https://user-images.githubusercontent.com/8952441/83225291-d705e000-a155-11ea-8f27-677c42d8abfc.png)
