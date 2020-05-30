@@ -13,6 +13,7 @@ A game developed in Unity, based on Flappy Bird
 * Destroy gameObject after a few seconds
 * transform.position = takes the position of the object where the script is
 * Quit game with Application.Quit();
+* SetActive GameObjects
 
 #### Download the project and run CubeFly.exe
 
